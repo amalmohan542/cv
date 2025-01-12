@@ -48,7 +48,13 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      school: "Government Engineering College Palakkad, Sreekrishnapuram",
+      school: "Hamburg University of Technology, Germany",
+      degree: "Master of Science in Data Science",
+      start: "2024",
+      end: "Present",
+    },
+    {
+      school: "Government Engineering College Palakkad, Sreekrishnapuram, Kerala, India",
       degree: "Bachelor of Technology in Computer Science and Engineering",
       start: "2017",
       end: "2021",
