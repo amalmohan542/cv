@@ -57,7 +57,7 @@ export const RESUME_DATA = {
       school: "Government Engineering College Palakkad, Sreekrishnapuram, Kerala, India",
       degree: "Bachelor of Technology in Computer Science and Engineering",
       start: "2017",
-      end: "2021",
+      end: "  2021",
     },
   ],
   work: [
