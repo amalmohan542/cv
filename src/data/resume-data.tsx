@@ -29,7 +29,7 @@ export const RESUME_DATA = {
   summary:
     "Dedicated frontend developer with a passion for creating captivating web experiences using React.js, Next.js and Vue.js. Bringing extensive expertise in e-commerce, online video editing, and AI-powered SaaS platforms. Proficient in JavaScript and TypeScript.",
   avatarUrl: "https://avatars.githubusercontent.com/u/33391178?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  personalWebsiteUrl: "https://amalmohank.netlify.app/",
   contact: {
     email: "amalmohan542@gmail.com",
     tel: "+91 9495861626",
