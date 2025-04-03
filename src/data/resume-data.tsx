@@ -121,7 +121,7 @@ export const RESUME_DATA = {
       // logo: MonitoLogo,
       link: {
         label: "Netflix Clone",
-        href: "https://netflix-clone542.netlify.app/",
+        href: "https://clone-app-1999.netlify.app/",
       },
     },
     {
