@@ -1,31 +1,13 @@
-import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
-  ClevertechLogo,
-  ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
-  JarockiMeLogo,
-  JojoMobileLogo,
-  Minimal,
-  MobileVikingsLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
-} from "@/images/logos";
+// Project: resume-builder
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Amal Mohan K",
   initials: "AMK",
-  location: "Kerala, India, IST",
-  locationLink: "https://maps.app.goo.gl/jxXBKu7ZUkf2tYTy6",
+  location: "Hamburg, Germany",
+  locationLink: "https://maps.app.goo.gl/VrBN7SmhCeSvxjdR6",
   about:
-    "Frontend  Engineer focused on building products with extra attention to detail",
+    "Software  Engineer focused on building products with extra attention to detail",
   summary:
     "Dedicated frontend developer with a passion for creating captivating web experiences using React.js, Next.js and Vue.js. Bringing extensive expertise in e-commerce, online video editing, and AI-powered SaaS platforms. Proficient in JavaScript and TypeScript.",
   avatarUrl: "https://avatars.githubusercontent.com/u/33391178?v=4",
@@ -54,7 +36,7 @@ export const RESUME_DATA = {
       end: "Present",
     },
     {
-      school: "Government Engineering College Palakkad, Sreekrishnapuram, Kerala, India",
+      school: "Government Engineering College Palakkad, Kerala, India",
       degree: "Bachelor of Technology in Computer Science and Engineering",
       start: "2017",
       end: "  2021",
@@ -66,7 +48,7 @@ export const RESUME_DATA = {
       link: "https://www.keyvalue.systems/",
       badges: [],
       title: "Software Engineer",
-      logo: ParabolLogo,
+      // logo: ParabolLogo,
       start: "Jul 2021",
       end: "Present",
       description:
@@ -77,7 +59,7 @@ export const RESUME_DATA = {
       link: "https://uniqin.ai/",
       badges: ["Remote"],
       title: "Software Engineer Intern",
-      logo: ClevertechLogo,
+      // logo: ClevertechLogo,
       start: "Arp 2021",
       end: "June 2021",
       description:
@@ -88,7 +70,7 @@ export const RESUME_DATA = {
       link: "https://industrustech.in/",
       badges: [],
       title: "Web Development Intern",
-      logo: JojoMobileLogo,
+      // logo: JojoMobileLogo,
       start: "May 2020",
       end: "Jun 2020",
       description:
@@ -96,22 +78,35 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
+    "TypeScript",
     "JavaScript",
     "Python",
-    "TypeScript",
     "React/Next.js/ReactNative",
-    "Tailwind/SCSS",
+    "Vue.js/Nuxt.js",
+    "Shadcn/Tailwind/SCSS",
     "Node.js",
     "GraphQL",
   ],
   projects: [
+    {
+      title: "Hirely App",
+      year: "2025",
+      techStack: ["Side Project", "TypeScript", "Next.js", "Shadcn", 'Firebase','Gemini','VAPI'],
+      description:
+        "An AI-powered platform for preparing Interview using mock interviews using realtime voice chat & get instant feedback.",
+      // logo: ConsultlyLogo,
+      link: {
+        label: "Hirely App",
+        href: "https://hirely-lovat.vercel.app",
+      },
+    },
     {
       title: "JobRadar App",
       year: "2023",
       techStack: ["Side Project", "JavaScript", "RectNative", "RapidAPI"],
       description:
         "A job listings app empowering users to efficiently search, explore, and apply for opportunities across various platforms.",
-      logo: ConsultlyLogo,
+      // logo: ConsultlyLogo,
       link: {
         label: "Github Repo",
         href: "https://github.com/amalmohan542/JobRadarApp",
@@ -123,9 +118,9 @@ export const RESUME_DATA = {
       techStack: ["Side Project", "JavaScript", "React.js", "themoviedb API"],
       description:
         "Developed a Netflix clone using React.js and CSS, mimicking the popular streaming platform’s user interface.",
-      logo: MonitoLogo,
+      // logo: MonitoLogo,
       link: {
-        label: "netflix-clone",
+        label: "Netflix Clone",
         href: "https://netflix-clone542.netlify.app/",
       },
     },
@@ -135,7 +130,7 @@ export const RESUME_DATA = {
       techStack: ["Internship Project", "Vue.js", "FastApi", "PostgreSQL"],
       description:
         "A Web Application utilizing Meta’s Prophet forecasting algorithm to suggest optimal prices for products to maximize revenue. ",
-      logo: JarockiMeLogo,
+      // logo: JarockiMeLogo,
     },
   ],
 } as const;
