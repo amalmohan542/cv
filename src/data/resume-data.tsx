@@ -9,7 +9,7 @@ export const RESUME_DATA = {
   about:
     "Software Engineer (AI & Full-Stack) | MSc Data Science @ TUHH | Hackathon Grand Prize Winner",
   summary:
-    "Software engineer with 3+ years building production web applications and AI-powered products. Grand Prize winner at Germany's largest AI hackathon (100+ teams). Experienced across React/Next.js/Vue frontends and Python/Node backends, with hands-on work in LLMs, RAG, and AI agents. MSc Data Science at TU Hamburg (expected Jul 2026). Google Cloud Associate Cloud Engineer certified. Based in Hamburg; fluent in English; German B1 (in progress); eligible to work in Germany.",
+    "Software engineer with 3+ years building production web applications and AI-powered products. Grand Prize winner at Germany's largest AI hackathon (100+ teams). Experienced across React/Next.js/Vue frontends and Python/Node backends, with hands-on work in LLMs, RAG, and AI agents. MSc Data Science at TU Hamburg (expected Jul 2026). Google Cloud Associate Cloud Engineer certified. Based in Hamburg; fluent in English; German A1 (in progress); eligible to work in Germany.",
   avatarUrl: "https://avatars.githubusercontent.com/u/33391178?v=4",
   personalWebsiteUrl: "https://amalmohank.netlify.app/",
   contact: {
@@ -72,7 +72,7 @@ export const RESUME_DATA = {
       start: "Apr 2021",
       end: "Jun 2021",
       description:
-        "Built a Vue.js dashboard for an AI-powered sales strategy platform with sales forecasting and inventory insights. Developed RESTful APIs with FastAPI and PostgreSQL; integrated Shopify webhooks to automate e-commerce data pipelines.",
+        "Built an AI-powered sales strategy platform with sales forecasting and inventory insights. Developed RESTful APIs with FastAPI and PostgreSQL; integrated Shopify webhooks to automate e-commerce data pipelines.",
     },
     {
       company: "Industrus Tech",
@@ -122,25 +122,6 @@ export const RESUME_DATA = {
         "Grand Prize and Fan Favourite at Germany's largest AI hackathon (100+ teams, 400+ participants). Built an AI agent that intercepts elderly phone scams in real time using OpenAI APIs, scoring top marks in Product Viability and Technical Innovation.",
     },
     {
-      title: "Hirely App",
-      year: "2025",
-      techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Shadcn",
-        "Firebase",
-        "Gemini",
-        "VAPI",
-      ],
-      description:
-        "Built an AI interview prep platform with real-time voice mock interviews, instant feedback powered by Gemini, and a Next.js + Firebase stack.",
-      link: {
-        label: "Hirely App",
-        href: "https://hirely-lovat.vercel.app",
-      },
-    },
-    {
       title: "Next-Gen Laboratory Operating System (LabOS)",
       year: "2025",
       techStack: [
@@ -178,6 +159,25 @@ export const RESUME_DATA = {
       ],
       description:
         "Built a decentralized voting platform with Ethereum smart contracts for secure authentication, one-vote enforcement, and transparent results while preserving voter anonymity. Shipped a full-stack Dockerized solution with separate voter and admin UIs.",
+    },
+    {
+      title: "Hirely App",
+      year: "2025",
+      techStack: [
+        "Side Project",
+        "TypeScript",
+        "Next.js",
+        "Shadcn",
+        "Firebase",
+        "Gemini",
+        "VAPI",
+      ],
+      description:
+        "Built an AI interview prep platform with real-time voice mock interviews, instant feedback powered by Gemini, and a Next.js + Firebase stack.",
+      link: {
+        label: "Hirely App",
+        href: "https://hirely-lovat.vercel.app",
+      },
     },
     {
       title: "Price Optimization for Sellers",
